@@ -87,3 +87,8 @@ El archivo de documentación se encuentra en docs/openapi.yaml.
 ## Uso de IA
 
 Este proyecto fue desarrollado con asistencia de Claude. Se utilizaron prompts para guiar la estructura del proyecto, implementación de endpoints, configuración de tests.
+
+
+## URL de producción
+
+https://miniblog-api-production-b5c5.up.railway.app
