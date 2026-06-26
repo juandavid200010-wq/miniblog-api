@@ -8,6 +8,7 @@ const pool = require('../src/db/index.js');
 beforeAll(async () => {
     await pool.query('DELETE FROM posts');
     await pool.query('DELETE FROM authors');
+    await pool.query('ALTER SEQUENCE posts_id_seq RESTART WITH 1');
     await pool.query('ALTER SEQUENCE authors_id_seq RESTART WITH 1');
 });
 
